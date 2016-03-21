@@ -1,6 +1,6 @@
-ITEM.Name = 'Kleiner'
-ITEM.Price = 10000
-ITEM.Model = 'models/player/kleiner.mdl'
+ITEM.Name = 'Combine Zombie'
+ITEM.Price = 2000
+ITEM.Model = 'modelsplayerzombie_soldier.mdl'
 
 function ITEM:OnEquip(ply, modifications)
 	if not ply._OldModel then

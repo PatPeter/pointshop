@@ -1,6 +1,7 @@
-ITEM.Name = 'Kleiner'
+ITEM.Name = 'Zoidberg'
 ITEM.Price = 10000
-ITEM.Model = 'models/player/kleiner.mdl'
+ITEM.Model = 'models/zoidberg/zoidberg.mdl'
+ITEM.AllowedUserGroups = { "admin" }
 
 function ITEM:OnEquip(ply, modifications)
 	if not ply._OldModel then

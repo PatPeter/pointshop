@@ -1,5 +1,5 @@
 ITEM.Name = 'Text Hat'
-ITEM.Price = 1000
+ITEM.Price = 5000
 ITEM.Model = 'models/extras/info_speech.mdl'
 ITEM.NoPreview = true
 

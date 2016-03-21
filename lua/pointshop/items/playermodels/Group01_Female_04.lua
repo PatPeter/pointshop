@@ -1,6 +1,6 @@
-ITEM.Name = 'Kleiner'
-ITEM.Price = 10000
-ITEM.Model = 'models/player/kleiner.mdl'
+ITEM.Name = 'Female Citizen 4'
+ITEM.Price = 1000
+ITEM.Model = 'models/player/Group01/Female_04.mdl'
 
 function ITEM:OnEquip(ply, modifications)
 	if not ply._OldModel then

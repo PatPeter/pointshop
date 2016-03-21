@@ -1,5 +1,5 @@
 ITEM.Name = 'Backpack'
-ITEM.Price = 100
+ITEM.Price = 200
 ITEM.Model = 'models/props_c17/SuitCase_Passenger_Physics.mdl'
 ITEM.Bone = 'ValveBiped.Bip01_Spine2'
 

@@ -1,6 +1,6 @@
-ITEM.Name = 'Headcrab Hat'
+ITEM.Name = 'Anonymous Mask'
 ITEM.Price = 1000
-ITEM.Model = 'models/headcrabclassic.mdl'
+ITEM.Model = 'models/anonymous_mask/anonymous_mask.mdl'
 ITEM.Attachment = 'eyes'
 ITEM.AdminOnly = false
 
@@ -13,9 +13,10 @@ function ITEM:OnHolster(ply)
 end
 
 function ITEM:ModifyClientsideModel(ply, model, pos, ang)
-	model:SetModelScale(0.7, 0)
+	model:SetModelScale(1.25, 0)
 	pos = pos + (ang:Forward() * 2)
-	ang:RotateAroundAxis(ang:Right(), 20)
+	pos = pos + (ang:Up() * -4)
+	ang:RotateAroundAxis(ang:Forward(), -1)
 	
 	return model, pos, ang
 end
